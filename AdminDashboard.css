@@ -1,0 +1,19 @@
+.admin-dashboard {
+  padding: 20px;
+}
+
+/* Override Material-UI styles for consistency */
+.MuiPickersStaticWrapper-root {
+  min-width: auto !important;
+}
+
+.MuiCalendarPicker-root {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+@media (max-width: 600px) {
+  .admin-dashboard {
+    padding: 10px;
+  }
+}

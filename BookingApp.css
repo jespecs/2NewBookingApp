@@ -1,0 +1,24 @@
+.booking-app {
+  padding: 20px;
+}
+
+.time-select {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Override Material-UI styles for consistency */
+.MuiPickersStaticWrapper-root {
+  min-width: auto !important;
+}
+
+.MuiCalendarPicker-root {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+@media (max-width: 600px) {
+  .booking-app {
+    padding: 10px;
+  }
+}
